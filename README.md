@@ -5,6 +5,9 @@
 建议使用[Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/vs/)进行编译，
 如何编译可参考 [编译dll并在python中使用ctypes调用](https://di1shuai.com/%E7%BC%96%E8%AF%91dll%E5%B9%B6%E5%9C%A8python%E4%B8%AD%E4%BD%BF%E7%94%A8ctypes%E8%B0%83%E7%94%A8.html)
 
+### 编译前提
+windows 10 sdk必顺安装才能编译
+
 
 ## python 示例
 

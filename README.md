@@ -35,7 +35,9 @@ bcdedit /set nointegritychecks on
 bcdedit /set testsigning on
 shutdown  -r -t 0
 ```
-4. 重启后**管理员身份**运行
+4. 安装Vs2019 with windows 10 sdk and vc++,不安装vs2019 with windows 10 sdk,亲测不可用，dll不能正确加载.
+
+5. 重启后**管理员身份**运行
 ```
 python python_examples.py
 ```

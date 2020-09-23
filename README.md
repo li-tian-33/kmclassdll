@@ -26,9 +26,7 @@ dll_path = 'YourPath\\kmclassdll.dll'
 driver_path = b'YourPath\\kmclass.sys'
 ```
 3. 开启 **测试模式** & **禁用强制驱动签名** 模式 & **重启**
-
   - 重启后快速按F2进入Bios，然后将Security Boot Mode设置为Disable status (default to enable status).
-
   - `管理员身份`打开`CMD`
 ```
 bcdedit /set nointegritychecks on

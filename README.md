@@ -27,9 +27,9 @@ driver_path = b'YourPath\\kmclass.sys'
 ```
 3. 开启 **测试模式** & **禁用强制驱动签名** 模式 & **重启**
 
-  3.1 重启后快速按F2进入Bios，然后将Security Boot Mode设置为Disable status (default to enable status).
+  - 重启后快速按F2进入Bios，然后将Security Boot Mode设置为Disable status (default to enable status).
 
-  3.2  `管理员身份`打开`CMD`
+  - `管理员身份`打开`CMD`
 ```
 bcdedit /set nointegritychecks on
 bcdedit /set testsigning on
